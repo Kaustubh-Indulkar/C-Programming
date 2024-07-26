@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1,num2;
+    printf("Enter the number: \n");
+    scanf("%d",&num1);
+    num2=num1*num1;
+    printf("The square of the given number is:%d",num2);
+
+    return 0;
+}
+
+(2)
+
+#include <stdio.h>
+
+int main()
+{
+    int p;
+    float r,t,si;
+    
+    printf("Enter P,R,T: \n");
+    scanf("%d%f%f",&p,&r,&t);
+    si=p*r*t/100;
+    printf("The Simple Interest is :%f",si);
+
+    return 0;
+}
